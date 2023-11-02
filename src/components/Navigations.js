@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import repaircafelogo from "../media/repaircafe_logo1.png";
-import "../scss/navigation.scss";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

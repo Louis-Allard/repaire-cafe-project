@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Navigation from "../components/Navigations";
-import "../scss/homepage.scss";
 import bandeau2 from "../media/bandeau3.jpg";
 import partage from "../media/partage.jpg";
 import outils6 from "../media/outils6.jpg";
