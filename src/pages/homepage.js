@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navigation from "../components/Navigations";
+import Navigation from "../components/Navigations.js";
 import bandeau2 from "../media/bandeau3.jpg";
 import partage from "../media/partage.jpg";
 import outils6 from "../media/outils6.jpg";
@@ -19,7 +19,6 @@ import ScrollingText from "../components/scrollingText.js";
 const Homepage = () => {
   
   const [weatherData, setWeatherData] = useState(null);
-
   const apiKey =
     "d9189c97f2c0f9925e1370024e3b46c10f00f5cdd6d87fb2c01125b5bc57aa21";
 

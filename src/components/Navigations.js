@@ -10,7 +10,7 @@ const Navigation = () => {
   };
   return (
     <div className="containerNav">
-      <Link to="/RepairCafe-Courchelettes" className="logo">
+      <Link to={"/RepairCafe-Courchelettes"} className="logo">
         <img
           className="imglogo"
           src={repaircafelogo}
@@ -33,7 +33,7 @@ const Navigation = () => {
               <NavLink to={"/RepairCafe-Courchelettes"}>Accueil</NavLink>
             </li>
             <li className="navigation-item">
-              <NavLink to="/apropos">A propos </NavLink>
+              <NavLink to={"/apropos"}>A propos </NavLink>
             </li>
           </ul>
         </div>
