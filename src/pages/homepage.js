@@ -17,6 +17,7 @@ import axios from "axios";
 import thermo from "../media/thermometre.png";
 import ScrollingText from "../components/scrollingText.js";
 const Homepage = () => {
+  
   const [weatherData, setWeatherData] = useState(null);
 
   const apiKey =
@@ -57,6 +58,7 @@ const Homepage = () => {
       return "green";
     }
   };
+
   return (
     <div className="containerAlpha">
       <Navigation />
@@ -133,6 +135,7 @@ const Homepage = () => {
           )}
         </div>
       </div>
+
       <div id="bandeau">
         <img className="bandeau" src={bandeau2} alt="un reparateur" />
       </div>
