@@ -1,0 +1,39 @@
+
+.element-avec-curseur-personnalise2 {
+    cursor: url('../media/tournevis.png'), pointer !important ;
+}
+
+.containerNav {
+   
+    width: 100%;
+    display: flex ;
+    background-color: rgb(251, 251, 252);
+
+.imglogo {
+width: 80%;
+}
+
+.lienNav {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+    font-size:xx-large;
+.navigation-item a{
+    margin-right: 85px;
+    text-decoration: none;
+    
+}
+
+.navigation-item a:hover {
+    text-decoration: underline; 
+    color: crimson;
+ cursor: url('../media/tournevis.png'), pointer !important ;
+    }
+   }
+}
+

@@ -1,0 +1,22 @@
+.scrolling-text-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 20px; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .scrolling-text-content {
+    white-space: nowrap;
+    position: absolute;
+    animation: scroll 10s linear infinite; /* Ajustez la durée selon vos besoins */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

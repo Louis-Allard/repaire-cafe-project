@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c5058483.css",
+    "main.js": "./static/js/main.e6125e6d.js",
+    "static/js/787.eeff50fc.chunk.js": "./static/js/787.eeff50fc.chunk.js",
+    "static/media/entretien.jpg": "./static/media/entretien.8a086460ba700defdf94.jpg",
+    "static/media/partage.jpg": "./static/media/partage.d39151fa93a27b5cd14b.jpg",
+    "static/media/outils6.jpg": "./static/media/outils6.d7ed718609459b6103b1.jpg",
+    "static/media/bandeau3.jpg": "./static/media/bandeau3.aca077a2e4059c29c988.jpg",
+    "static/media/repaircafe_logo1.png": "./static/media/repaircafe_logo1.ed7712273f2e7bc4e259.png",
+    "static/media/thermometre.png": "./static/media/thermometre.94371ca590da06e27e4c.png",
+    "index.html": "./index.html",
+    "main.c5058483.css.map": "./static/css/main.c5058483.css.map",
+    "main.e6125e6d.js.map": "./static/js/main.e6125e6d.js.map",
+    "787.eeff50fc.chunk.js.map": "./static/js/787.eeff50fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5058483.css",
+    "static/js/main.e6125e6d.js"
+  ]
+}
