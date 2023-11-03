@@ -10,10 +10,10 @@ const Footer = () => {
       </div>
       <div className="copyright-container">
         <Link
-          to="/RepairCafe-Courchelettes"
+          to="/"
           className="copyright"
           onClick={() => window.scrollTo(0, 0)}
-        >
+        > {/* Changement de route */}
           <p>&copy; 2023 Repair Café Courchelettes</p>
         </Link>
         <Link
