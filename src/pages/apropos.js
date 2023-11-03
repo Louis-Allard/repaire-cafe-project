@@ -8,7 +8,7 @@ const Apropos = () => {
       <Navigation />
       <div className="container-content">
         <h1> À Propos de Repair Café Courchelettes</h1>
-        <p>
+        <div> {/** Remplacement de la balise p par la div **/}
           Bienvenue chez Repair Café Courchelettes, votre destination locale
           pour la réparation collaborative et durable. <br />
           <br />
@@ -61,7 +61,7 @@ const Apropos = () => {
           réalité au quotidien. Adresse : 15 Rés Emilie Hérin, 59552
           Courchelettes. Heures d'ouverture : 17 h - 19 h le dernier mardi du
           mois. Contact : Insérez les coordonnées de contact.
-        </p>
+        </div>
       </div>
       <Footer />
     </div>
