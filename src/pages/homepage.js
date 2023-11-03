@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navigation from "../components/Navigations"; {/* extention enlevée */}
+import axios from "axios";
+import Navigation from "../components/Navigations";
+import ScrollingText from "../components/scrollingText";
+import Footer from "../components/Footer";
 import bandeau2 from "../media/bandeau3.jpg";
 import partage from "../media/partage.jpg";
 import outils6 from "../media/outils6.jpg";
@@ -12,10 +15,7 @@ import machine from "../media/machine-a-laver.png";
 import vaisselle from "../media/lave-vaisselle.png";
 import four from "../media/four.png";
 import entretien from "../media/entretien.jpg";
-import Footer from "../components/Footer.js";
-import axios from "axios";
 import thermo from "../media/thermometre.png";
-import ScrollingText from "../components/scrollingText"; {/* extention enlevée */}
 
 const Homepage = () => {
   const [weatherData, setWeatherData] = useState(null);
