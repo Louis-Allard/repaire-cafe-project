@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route  path="apropos" element={<About />} />
-          <Route path="membres" element={<Membres />} />
+          <Route path="/" Component={Homepage} /> {/* element changé par component */}
+          <Route  path="apropos" Component={About} />
+          <Route path="membres" Component={Membres} />
         </Routes>
-    </Router>
+    a </Router>
     </div>
   );
 }

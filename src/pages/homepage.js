@@ -16,6 +16,7 @@ import Footer from "../components/Footer.js";
 import axios from "axios";
 import thermo from "../media/thermometre.png";
 import ScrollingText from "../components/scrollingText.js";
+
 const Homepage = () => {
   const [weatherData, setWeatherData] = useState(null);
   const apiKey =
