@@ -312,7 +312,7 @@ const Homepage = () => {
             Nous nous retrouvons le dernier mardi de chaque mois entre 17h00 et
             19h00 dans la salle Emilie Herin de Courchelettes.
           </p>
-{/*           <iframe
+           <iframe
             title="UniqueTitle"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40709.84509992994!2d3.0909547426513573!3d50.378388099657606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1695883811798!5m2!1sfr!2sfr"
             width="300"
@@ -320,7 +320,7 @@ const Homepage = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-          ></iframe> */}
+          ></iframe> 
         </div>
       </div>
       <Footer />
