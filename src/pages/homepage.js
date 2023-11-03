@@ -17,7 +17,6 @@ import axios from "axios";
 import thermo from "../media/thermometre.png";
 import ScrollingText from "../components/scrollingText.js";
 const Homepage = () => {
-  
   const [weatherData, setWeatherData] = useState(null);
   const apiKey =
     "d9189c97f2c0f9925e1370024e3b46c10f00f5cdd6d87fb2c01125b5bc57aa21";
